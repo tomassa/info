@@ -1,0 +1,13 @@
+- multimodal models that can learn from images and texts, generate text outputs, work well with documents, webpages, etc. soem can output bounding boxes or segmentation masks
+  - try training own VLM in free-tier colab notebook https://huggingface.co/blog/nanovlm #try
+  - open source VLMs + arena leaderboard https://huggingface.co/blog/vlms
+  - MoE - Mixture of Experts - decoder for any-to-any mulitmodal model - router selectively activates relevant submodel fro decoding (also hallucination reduction)
+    - https://huggingface.co/blog/moe
+  - visual document retriever RAG - ColPali model
+  - models operating over UIs - UI-TARS-1.5 or Qwen2.5-VL
+  - Vision-language-action models for robotics, safety models
+  - Qwen 2.5 VL is good candidate for agentic workflows (in April 2025 ;) )
+  - Kimi-VL-Thinking best reasoning model
+  - ollama supports VLM models https://ollama.com/blog/multimodal-models
+  - try use trl for VLM finetuning https://huggingface.co/blog/vlms-2025 #try
+ 

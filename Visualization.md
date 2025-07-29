@@ -1,0 +1,8 @@
+  - Marimo (built in sql cells, interactive reports for DWH) 
+  - Gradio https://towardsdatascience.com/publish-interactive-data-visualizations-for-free-with-python-and-marimo/ , 
+  - excel with python and savetodb add-in as reports to DWH 
+  - Figma
+  - Maphub.co - github for maps, allows quick sharing of maps, provides huge hub of public maps
+  - Streamlit app on top of Postgre https://towardsdatascience.com/building-a-data-dashboard-9441db646697/
+  - Gradio app similar to previous one https://towardsdatascience.com/building-a-modern-dashboard-with-python-and-gradio/
+  - 

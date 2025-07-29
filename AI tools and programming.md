@@ -1,0 +1,52 @@
+  - try to create AI-powered system that pulled the latest AI articles content and sent the summary to a spreadsheet #try
+  - frameworks: DSPy, langchain - tools to develop LLM applications
+  - Chain of Thought - instead of pure next token generation, think about intermediate steps, backtrack incorrect intermediate partial solutions, force llm to think step-by-step
+  - Direct Preference Optimization DPO - align LLM with human, post-training based on the prompts and preferred answers 
+  - Instruction fine-tuning: domain-specific questions and answers are used to further train LLM to return domain specific answers (i.e. medical diagnosis)
+  - linkedin - collaborative prompt engineering playground - LLM+langchain+Jupyter (Automated harm detection through pre-built evaluators, LLM-based evaluation using larger models to assess smaller ones;)
+  - try Waii, a SQL AI Agent, purpose-built SQL compiler and optimizer, also check queryhub.ai #try
+  - try Docker Model Runner for LLMs, from docker desktop 4.40 #try
+  - algorithms like TSNE or UMAP to visualize embedings space in python
+  -  the ability to clearly articulate requirements in precise and unambiguous natural language
+  - Deep Research - try ChatGPT(paid), Gemini, Claude - Copy excerpts from Deep Research(Perplexity - real time data) reports into Claude to transform them into visual dashboards—including charts and interactive elements—using Claude Artifacts https://www.youtube.com/watch?v=zK3KlDOnpn4 #try
+    - discover places like travel guide, Explore complex controversies from multiple perspectives (debunk disinformation?), while specifying that you want evidence-based arguments from multiple disciplines
+    - Be detailed about your topic, reasons for interest, and how you’ll use the information, Specify your preferred tone & format —tables, lists, pros/cons, bullets, Provide context about your existing knowledge and audience, be patient
+    - check Google scholar recommendations for tomas.sako.mgr
+  - Perplexity AI - displays  sources, combines sources, also assistent in smartfone, available all commercial models, can be used as main realtime web search engine, used by students and researchers, similar to NotebookLM (features Spaces can import papers and docs), tips on how to do things
+	  - Perplexity prompts:
+	  - "Find the latest breakthroughs in [topic, e.g., 'AI ethics' or 'mRNA vaccines'] from the past 3 months. Summarize key developments, link to 2-3 credible sources (academic papers or major publications), and highlight unresolved challenges."
+	  - _"Summarize the latest news on [topic]."_
+	  - **"**_What are the current market trends in [industry]?"_
+	  - _"Compare the pros and cons of [product/service] vs. [product/service]."_
+	  - _"Plan a 3-day itinerary for [destination] including must-see attractions and local cuisine."_
+  - Gemini already integrated to Chrome in US, supporting talk to Live
+  - Google Flow not available in Slovakia (proxy? windscreen not working for this), text-to-video tool #try
+- Raindrop.io: The New Bookmark King , instead of pocket.com
+- Perplexity Labs can create interactive web apps, and write code to structure data, apply formulas, and create documents, dashboards, spreadsheets (20$ per month)
+- to automate with n8n I need to use authorized domain (or use cloud option and switch gmail accounts), not localhost when self-hosting https://www.youtube.com/watch?v=C7NCAIiwj88
+- Google AI Edge Gallery - android app, to run models locally on phone, text/image
+- inline commenting with explicit language, like “Don’t touch these lines.” for LLM
+- Composio - one SDK, hundreds of pre-built tools, auth handled automatically https://dev.to/composiodev/i-vibe-coded-a-20m-yc-app-in-a-weekend-heres-how-533o
+- claude code:
+	- cat package.json | claude -p "review this file for security vulnerabilities and dependency issues" > security_report.txt
+	- reads the contents of your package.json file and pipes it directly to Claude Code, -p flag runs Claude in headless (non-interactive) mode with the specified prompt,  perform a security-focused code review, specifically looking for vulnerabilities and dependency issues, captures Claude’s analysis in a text file for documentation or further processing
+- model's voice mode: Claude mobile app (free), Chatgpt voice (Plus), Gemini Live
+- If your project is more complex, create a separate file to document the following:
+	- A markdown file containing your project’s requirements. If you have a specific request, like ensuring the model avoids using a library that might be deprecated, you can add it here.
+	- For domain-specific code or lesser-known libraries, include documentation so the model doesn’t run into too many errors.
+	- Examples of code notebooks with similar workflows (this saves time because it gives the model context and tells it how to approach the problem).
+- Then prompt:
+	- Create a sentiment analysis web app that:
+> 	1. Uses a pre-trained DistilBERT model to analyze the sentiment of text (positive, negative, or neutral)  
+> 	2. Has a simple web interface where users can enter text and see results  
+> 	3. Shows the sentiment results with appropriate colors (green for positive, red for negative)  
+> 	4. Runs immediately without needing any training
+> 	Please connect all the files properly so when I enter text and click analyze, it shows me the sentiment results right away.
+- Logically, former Afforai - write research paper with LLMs, upload sources, generate refs
+-  Huggingface AI app directory - https://huggingface.co/spaces
+- Google AI studio - generate images, gifs, audio https://aistudio.google.com/
+- Google's dynamic AI research assistant open source - react, langgraph, gemini 2.5, fastapi https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart
+- Kling - best video generation tool in 2025
+- Immich public proxy https://www.xda-developers.com/immich-community-projects-couldnt-live-without/ 
+- Spark SQL and DataFrame, and MLlib code accelerated by Spark RAPIDS ML with no code change needed (when GPU is used) https://developer.nvidia.com/blog/accelerate-apache-spark-ml-on-nvidia-gpus-with-zero-code-change
+- AI notebooks from marktechpost.com https://github.com/Marktechpost/AI-Notebooks/tree/main?tab=readme-ov-file #try 

@@ -1,0 +1,12 @@
+- VSCode  
+	- you can still use Copilot for free, Choose your AI model: Pick between Claude 3.5 Sonnet or OpenAI GPT-4o, 50 chat messages and 2000 inteligent code completions per month
+	  - VSCode extension Coderabbit - free ai code reviews, faster PRs, less bugs
+	  - extension Continue provide usage of ollama self-hosted models to use for coding https://www.youtube.com/watch?v=-8vOCrIDR3A&t=305s
+- IDE Zed - with AI paid, without not paid, 50 prompts per month are free, running models on own HW on Ollama is free as well, on MacOS and Linux, no Win now
+- IDE Cursor, now free for students, like VSCode with AI agent #try tried, it needs anthropic key for claude
+  Genius plan: 1. give students Cursor for free so that they cant code without it 2. Let them graduate 3. make them pay for the tool, which is a must for them
+	- ctrl+I - Agent, ctrl+K - edit code with AI, tab - predict next moves
+	- Cursor is Claude native fork of VSCode
+	- how to combine Cursor and Windsurf and Claude https://dev.to/therealmrmumba/how-to-use-claude-4-opus-sonnet-with-cursor-windsurf-11np
+- Docker
+  - https://thenewstack.io/docker-model-runner-brings-local-llms-to-your-desktop/ - beta feature only for Apple Macs

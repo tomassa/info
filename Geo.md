@@ -1,0 +1,5 @@
+- chat2geo 
+	- helps with geospatial analysis
+	- uses either GEE data, OSM(roads, building footprints) or user uploads shapefiles or geojsons of ROI, or uploads non-spatial textual data (and query this as RAG)
+	- connections: Esri, Postgre
+	- opensource as well https://github.com/GeoRetina/chat2geo

@@ -1,0 +1,13 @@
+ - try creation of mind maps from notes and docs in NotebookLM, easy to share with others when brainstorming, learning or project planning #try
+  - try creation of educational podcasts, upload notes, documents, transcripts from videos: from 1.RAG 9 chapters or from 2. Google's "Agents companion" whitepaper #try
+  - write notes from projects, tech tutorials to OneNote or Obsidian, links to youtube videos, websites, then export to pdf and add to NotebookLM (new notebook for each topic to get info summary and synthesis), share
+  - you can define specific i.e. only trusted sources
+  - generating ideas based on certain criteria, ask for summary or study guide or FAQ
+  - add up to 50 sources to each notebook (google docs, weblinks, videos, pdfs),create separate notebook for each project
+  - audio overviews also in Czech and Slovak languages
+  - powered by Gemini AI
+  - customize button allows you to guide the conversation so that key points are covered
+  - now with Podcast "dialogue" summary feature + standard auto summary feature
+  - upload notes from obsidian to NotebookLM, upload complex pdfs and query it, use it as project brain hub (emails, meeting minutes, tasks, ..)
+  - advantage against other internet tools - only your trusted sources
+  - can share your NotebookLM notebooks publicly with a single link, still keeps your source content protected - viewers can’t make edits, let viewers ask AI questions about your notes -> usage school class notes, project notes
