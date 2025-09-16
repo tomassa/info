@@ -1,0 +1,7 @@
+- FOP optimizer brings 7.5x faster training than SGD https://www.marktechpost.com/2025/08/29/how-to-cut-your-ai-training-bill-by-80-oxfords-new-optimizer-delivers-7-5x-faster-training-by-optimizing-how-a-model-learns/
+- to reduce compute resource needs
+	- use specific/distilled versions (right-size) of models instead of giant generalizing models
+	- efficiency - not add automatically all the features, let people decide - can save the waste
+	- optimize HW utilization - does it have to 24/7 on? run in batches instead real-time requests
+	- energy transparency - HF AI energy score
+	- rethink the “more compute is better” mindset
