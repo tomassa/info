@@ -5,4 +5,5 @@
   - Maphub.co - github for maps, allows quick sharing of maps, provides huge hub of public maps
   - Streamlit app on top of Postgre https://towardsdatascience.com/building-a-data-dashboard-9441db646697/
   - Gradio app similar to previous one https://towardsdatascience.com/building-a-modern-dashboard-with-python-and-gradio/
-  - 
+  - Blender 5.0 with DLSS rendering released on 20251111
+  - Canva online for social media content and others

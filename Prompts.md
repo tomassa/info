@@ -46,3 +46,5 @@
 - "make a table that included all of the items on the sushi menu, with price information, organize it into three columns: item, description, price"
 - in google sheets: "calculate the weighted average of values in column E, where the weights are in column F, but only for items belonging to "category A" in column D"
 - "what does this formula do?" "why isnt this formula working right?"
+- zero-shot prompt - ask LLM to think fast, no review, no breakdown to smaller steps
+- few-shot prompt - let LLM think slowly

@@ -11,3 +11,9 @@
   - GEE project "fastai-226712" registration: Data engineer, Kinit, Can poverty be estimated from space?, regional -Russia
   - RAPIDS 25.04 - cuDF can read parquet footers in parallel, polars GPU engine, cuML and Polars integrated to Colab NBs  https://developer.nvidia.com/blog/rapids-brings-zero-code-change-acceleration-io-performance-gains-and-out-of-core-xgboost/?mkt_tok=MTU2LU9GTi03NDIAAAGav2zkiElYPFxiJRdt3g4xfN_2xV-vxi3qNKBbsTJmLQosDCFZjem9ccwYyHBOzeo_p0CC9HD1ELYyY3i1WvSHr4iznEL1bb08SWfeOFqYWwlVMuGxQ0un
 - Apache Spark - build ML pipelines https://www.kdnuggets.com/implementing-machine-learning-pipelines-with-apache-spark
+- HF AI Sheets - can have separate prompt for each column, size and speed are higher than in competitors, integrated web search, it needs to drag down columns because at first it generates only 5 sample rows
+- vector DB:
+	- data split into chunks, chunks converted into vectors, RAG performs search of ANN for most relevant results, optionally blend with BM25 (hybrid search)
+	- vectors go into your database alongside **rich metadata** (source, owner, date, region, access level, product, version, precedence)
+	- good systems show sources and **refuse** when evidence is weak
+- best vector DBs for RAG comparison 2025 https://digitaloneagency.com.au/best-vector-database-for-rag-in-2025-pinecone-vs-weaviate-vs-qdrant-vs-milvus-vs-chroma/

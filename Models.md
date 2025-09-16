@@ -7,7 +7,7 @@
   - LearnLM in Gemini 2.5, AI Mode in Google search available only to US users (proxy?)
   - try nanoVLM: A Pure PyTorch Library to Train a Vision-Language Model from Scratch in 750 Lines of Code, visual encoder and language decoder with modality projection mechanism between https://www.marktechpost.com/2025/05/08/hugging-face-releases-nanovlm-a-pure-pytorch-library-to-train-a-vision-language-model-from-scratch-in-750-lines-of-code/ #try
   - try geospatial foundation model Clay https://www.linkedin.com/posts/mbforr_gpt-changed-language-clay-might-change-activity-7325338155094523904-7sgO/?utm_source=Newsletter+Subscribers&utm_campaign=8644d6ca45-EMAIL_CAMPAIGN_2025_04_01_04_02_COPY_01&utm_medium=email&utm_term=0_-75991b7c8d-508015513 #try
-  - distilled quantized Deepseek R1 0528 currently the best open source model to run locally
+  - distilled quantized Deepseek R1 0528 currently the best open source model to run locally, Deepseek-Coder the best to code locally
   - Claude 4 Opus (the most powerful model) and Claude 4 Sonnet (the lighter, faster sibling) 20250617, Think of **Opus** as your system architect and **Sonnet** as your hands-on coding assistant, most devs use both depending on the moment
   - eval frameworks for LLMs: OpenAIEvals, DeepEval, RAGAs,.. - evaluate models to find the best one for your specific task/question
   - how to select model based on your task https://docs.cursor.com/guides/selecting-models
@@ -18,4 +18,5 @@
   - bolt.new - prototyping apps, possible to import design from Figma
   - jupyter notebooks in VS code - try Luko's NBs, Melisek's NBs https://code.visualstudio.com/docs/datascience/jupyter-notebooks 
   - LM leaderboard https://lmarena.ai/leaderboard
-  - 
+  - Amazon Nova models family, cheaper and faster than OpenAI (performance?)
+  - XGBoost 3.0 can process terabyte dataset on a single nvidia GH200 chip

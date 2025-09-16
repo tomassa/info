@@ -50,3 +50,20 @@
 - Immich public proxy https://www.xda-developers.com/immich-community-projects-couldnt-live-without/ 
 - Spark SQL and DataFrame, and MLlib code accelerated by Spark RAPIDS ML with no code change needed (when GPU is used) https://developer.nvidia.com/blog/accelerate-apache-spark-ml-on-nvidia-gpus-with-zero-code-change
 - AI notebooks from marktechpost.com https://github.com/Marktechpost/AI-Notebooks/tree/main?tab=readme-ov-file #try 
+- create, deploy and modify complex n8n workflows with AI — [n8n-MCP](https://github.com/czlonkowski/n8n-mcp) It works in Claude and other chatbots with MCP support
+- automation in Make tutorial https://ai.gopubby.com/building-no-code-ai-workflows-a-hands-on-guide-with-voice-notes-bb30e1ff925c
+- Obsidian vault to website, using Quartz and Github pages https://www.xda-developers.com/turned-obsidian-vault-into-website/
+- tutorial MCP powered deep researcher https://www.dailydoseofds.com/p/hands-on-mcp-powered-deep-researcher/ #try
+- Solar - AI agents to build and deploy production apps, like Figma but live data and real backend
+- try github issue fixing and PR creation with Claude https://www.kdnuggets.com/automate-github-workflows-with-claude-4 #try
+- RLHF - reinforcement learning for human feedback - LLMs aligned answers for 'appropriate' (instruction-tuned) -> Anthropic's ex-OpenAI researchers wanted to align models using AI instead of humans (to reduce human's bias like cultural, ethnical, racism,..)
+	--> Claude's context window from 9000 to 100000 tokens -> ready for in-context learning
+- exponential backoff - increasing the delay between retries with each unsuccessful attempt[6]
+- tutorial to train and deploy model with fastapi and docker https://machinelearningmastery.com/step-by-step-guide-to-deploying-machine-learning-models-with-fastapi-and-docker/ #try
+- tutorial to build local google colab ollama server chat with gradio frontend https://www.marktechpost.com/2025/08/19/a-coding-implementation-to-build-a-complete-self-hosted-llm-workflow-with-ollama-rest-api-and-gradio-chat-interface/ #try
+- LangExtract (Google) - parse unstructured healthcare data into structured schema possibly with ollama and kaggle NB, other examples in langextract docs https://towardsdatascience.com/can-langextract-turn-messy-clinical-notes-into-structured-data/ #try
+- DeepCode - An Open Agentic Coding Platform that Transforms Research Papers into Production-Ready Code https://github.com/HKUDS/DeepCode?tab=readme-ov-file #try #githubtrending
+- tool Phoenix - tracing and debugging LLMs https://www.kdnuggets.com/debugging-and-tracing-llms-like-a-pro #try 
+- playwright like selenium - automate clicking, logging in stuff in python, no time.sleep(2)
+	https://python.plainenglish.io/why-every-serious-python-developer-is-quietly-switching-to-playwright-5932370409ae #try 
+- Kimi K2 best tool using open model 20250730

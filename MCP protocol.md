@@ -11,4 +11,6 @@
 	  - each agent will typically run on its own port or endpoint
 	  - sample clients and even a2a demo https://github.com/a2aproject/a2a-samples #try
   - list of MCP servers https://www.kdnuggets.com/32-mcp-servers-you-need-to-check-out-now
+  - opensource MCP servers including Telegram, Youtube, Postgre, Figma: https://github.com/modelcontextprotocol/servers?ref=blog.min.io
+  - Remote GitHub MCP Server is now in public preview in VS Code or Visual Studio, after authenticating with PAT or OAuth2.0 AI can start using tools
   

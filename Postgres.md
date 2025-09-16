@@ -37,6 +37,18 @@ EXTENSIONS
 		- Python library, transforms PG into production-ready RAG
 		- automaticall create and sync embeddings, search with pgvectorscale
 		- support for embeddings - Ollama, HF, OpenAI etc
+- wal2json - logical decoding for easier auditing, data replication etc.
+- pg_repack - removes bloat without need of exclusive locks like vacuum
+- patroni - template for high availability (HA) PostgreSQL solutions using Python
+- pgbouncer - lightweight connection pooler for PostgreSQL
+- pgbackrest - backup tool used to perform PostgreSQL database backup, archiving, restoration, and point-in-time recovery
+- pg_exporter - monitoring experience to your PostgreSQL with declarative config, dynamic planning, and customizable collectors
+- pgbadger - PostgreSQL log analyzer with fully detailed reports and graphs
+- vip-manager - manages a virtual IP (VIP) for high availability (HA) setups, ensuring it always points to the active PostgreSQL primary instance, works with patroni
+- pig - open-source PostgreSQL (& Extension) Package Manager for (EL/Debian/Ubuntu) Linux https://github.com/pgsty/pig
+- postgresml - open-source pgml extension, PG with GPU for ML/AI apps, train, predict, RAG, HF,  with SQL
+
+Install PostgreSQL 13~17 along with [423 extensions](https://ext.pgsty.com/list)
 
 NOTES
 
@@ -65,3 +77,10 @@ NOTES
 - import OSM dump to PG https://www.cybertec-postgresql.com/en/openstreetmap-service-by-cybertec/ #try
 - starting PG16+ use "EXPLAIN (GENERIC_PLAN)" for execution plan of a parameterized statement
 - atlas - database schema-as-code at any scale atlasgo.io #paid
+- reduce bloat in large PG tables - to change autovacuum_vacuum_scale_factor for a single, large table, you would run something like this
+	ALTER TABLE [table_name] SET (autovacuum_vacuum_scale_factor = 0.01);
+- use PG instead of mongodb, elasticS, redis, websocket, rabbitmq etc https://dev.to/shayy/postgres-is-too-good-and-why-thats-actually-a-problem-4imc 
+- custom vertical clustered index VCI for columnar  
+- RAG filtering in PG https://www.postgresql.fastware.com/blog/improving-rag-in-postgresql-from-basic-retrieval-to-smarter-context
+- create stats in PG similarly like in TD to optimize query execution - for '=' use dependancy, for 'group by' use ndistinct, for scalar operators use mcv https://www.crunchydata.com/blog/hacking-the-postgres-statistics-tables-for-faster-queries 
+- 

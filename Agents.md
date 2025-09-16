@@ -15,3 +15,17 @@
   - Microsoft Entra - each new agent gets identity and admins assign them permissions and monitor data access etc, .. Prompt Shields guardrail - prompt injections
 - Flowise - visual agentic orchestration - agentic no-code workflows (including web scrapper tool, extended memory, human interaction tools,..)
 - toxic agent flows - vulnerability of Github MCP server - prompt injection in public repo issue caused leakage of data from private repo from the same author https://invariantlabs.ai/blog/mcp-github-vulnerability
+- try agno and google-genai to create team of agents to automate SM post generation https://towardsdatascience.com/agentic-ai-103-building-multi-agent-teams/ #try
+- 20250613 - LLM agents are not yet great at coordinating and delegating to other agents in real time, we’ve found that multi-agent systems excel at valuable tasks that involve heavy parallelization, information that exceeds single context windows, and interfacing with numerous complex tools
+	-> research system - orchestrator - worker pattern, where a lead agent coordinates the process while delegating to specialized subagents that operate in parallel
+	-> important to limit number of calls of tools for subagents and to create distinct subtasks
+	-> let agents improve themselves (i.e. rewrite description of flawed MCP server)
+	-> automated LLM evaluations plus manual human testing
+	-> opensource prompts for leader and subagents https://github.com/anthropics/anthropic-cookbook/tree/main/patterns/agents/prompts
+	-> without effective mitigations, minor system failures can be catastrophic for agents. When errors occur, we can't just restart from the beginning: restarts are expensive and frustrating for users -> combine the adaptability of AI agents with deterministic safeguards like retry logic and regular checkpoints
+	-> agents are non-deterministic between runs, even with identical prompts, this makes debugging harder
+	-> [rainbow deployments](https://brandon.dimcheff.com/2018/02/rainbow-deploys-with-kubernetes/) to avoid disrupting running agents, by gradually shifting traffic from old to new versions while keeping both running simultaneously
+	-> our lead agents execute subagents synchronously, waiting for each set of subagents to complete before proceeding
+- Lovable and n8n agentic apps tutorial https://lovable.dev/video/tutorial-build-agentic-apps-with-lovable-n8n
+- GenAI MCP toolbox for Databases - foundation for building production-ready AI agents with reliable database access
+- guardrails -
